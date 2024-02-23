@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IPManager", "IPManager\IPManager.csproj", "{EBFA8512-1EA5-4D8C-B4AC-AB5B48A6D568}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IPManager.Browser", "IPManager.Browser\IPManager.Browser.csproj", "{1C1A049E-235C-4CD0-B6FA-D53AC418F4DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3DA99C4E-89E3-4049-9C22-0A7EC60D83D8}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "IpManager.SharedSettings", "IpManager.SharedSettings\IpManager.SharedSettings.shproj", "{DBD907F2-64F8-40D4-8418-58F5197E1AB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IpManager.Serialization", "IpManager.Serialization\IpManager.Serialization.csproj", "{F2400497-B483-4B70-A2AD-A431EBDB33BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IpManager.Server", "IpManager.Server\IpManager.Server.csproj", "{DF78B4F2-F9D5-42F5-806E-C7B1E4F93942}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBFA8512-1EA5-4D8C-B4AC-AB5B48A6D568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBFA8512-1EA5-4D8C-B4AC-AB5B48A6D568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBFA8512-1EA5-4D8C-B4AC-AB5B48A6D568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBFA8512-1EA5-4D8C-B4AC-AB5B48A6D568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C1A049E-235C-4CD0-B6FA-D53AC418F4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C1A049E-235C-4CD0-B6FA-D53AC418F4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C1A049E-235C-4CD0-B6FA-D53AC418F4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C1A049E-235C-4CD0-B6FA-D53AC418F4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2400497-B483-4B70-A2AD-A431EBDB33BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2400497-B483-4B70-A2AD-A431EBDB33BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2400497-B483-4B70-A2AD-A431EBDB33BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2400497-B483-4B70-A2AD-A431EBDB33BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF78B4F2-F9D5-42F5-806E-C7B1E4F93942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF78B4F2-F9D5-42F5-806E-C7B1E4F93942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF78B4F2-F9D5-42F5-806E-C7B1E4F93942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF78B4F2-F9D5-42F5-806E-C7B1E4F93942}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83CB65B8-011F-4ED7-BCD3-A6CFA935EF7E}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		IpManager.SharedSettings\IpManager.SharedSettings.projitems*{dbd907f2-64f8-40d4-8418-58f5197e1ab5}*SharedItemsImports = 13
+		IpManager.SharedSettings\IpManager.SharedSettings.projitems*{df78b4f2-f9d5-42f5-806e-c7b1e4f93942}*SharedItemsImports = 5
+		IpManager.SharedSettings\IpManager.SharedSettings.projitems*{ebfa8512-1ea5-4d8c-b4ac-ab5b48a6d568}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
